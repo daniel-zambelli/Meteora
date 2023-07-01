@@ -1,1 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+:root {
+  --preto: #000000;
+  --cinza: #cccccc;
+  --verde-limao: #daff01;
+  --violeta: #9353ff;
+  --vermelho-banner: #ee6471;
+  --laranja-banner: #f87f46;
+
+  --fonte-primaria: "Josefins", sans-serif;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
