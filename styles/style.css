@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+@import url("reset.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("categorias.css");
+@import url("produtos.css");
+@import url("vantagens.css");
+@import url("inscricao.css");
+@import url("footer.css");
 
 :root {
   --preto: #000000;
@@ -7,10 +15,15 @@
   --violeta: #9353ff;
   --vermelho-banner: #ee6471;
   --laranja-banner: #f87f46;
+  --cor-de-fundo: #ffffff;
+  --cor-menu: #343a40;
 
   --fonte-primaria: "Josefins", sans-serif;
 }
 
-html {
-  font-family: "Josefin Sans", sans-serif;
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-primaria);
+  font-size: 16px;
+  font-weight: 400;
 }
