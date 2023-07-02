@@ -19,8 +19,8 @@
     <title>Meteora</title>
   </head>
   <body>
-    <body>
-      <header class="cabecalho">
+    <header class="cabecalho">
+      <div class="container-hamburguer">
         <div id="menu-bar">
           <div id="menu" onclick="onClickMenu()">
             <div id="bar1" class="bar"></div>
@@ -29,16 +29,50 @@
           </div>
           <ul id="nav" class="nav">
             <li><a href="#">Home</a></li>
+            <hr />
             <li><a href="#">Nossas Lojas</a></li>
+            <hr />
             <li><a href="#">Novidades</a></li>
+            <hr />
             <li><a href="#">Promoções</a></li>
+            <hr />
             <li><a href="#">Fale Conosco</a></li>
           </ul>
         </div>
         <div id="menu-bg" class="menu-bg"></div>
-        <h1><img src="" alt="" /></h1>
-      </header>
-      <script src="js/script.js"></script>
-    </body>
+      </div>
+      <div class="menu__pesquisa">
+        <input
+          type="search"
+          name="Busca"
+          id="barra__pesquisa"
+          placeholder="Pesquise o produto..."
+        />
+        <label for="barra__pesquisa"
+          ><button class="menu__botao">Buscar</button></label
+        >
+      </div>
+      <div class="container-menu__logo">
+        <a href="index.html">
+          <img
+            class="menu__logo"
+            src="assets/logo-desktop.png"
+            alt="Logo Meteora"
+          />
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div>
+          <img
+            class="banner_imagem"
+            src="assets/banner-carousel-desktop-1.png"
+            alt="Banner 1"
+          />
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -11,6 +11,15 @@ body {
   background-color: var(--branco);
 }
 
+.cabecalho {
+  background-color: var(--preto);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
 #menu {
   width: 35px;
   height: 30px;
@@ -21,7 +30,7 @@ body {
 .bar {
   height: 5px;
   width: 100%;
-  background-color: var(--preto);
+  background-color: var(--verde-limao);
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;
@@ -35,34 +44,34 @@ body {
   transform: translateY(4px);
 }
 
-ul {
-  padding: 0 5em;
-}
-
 .nav li a {
   color: var(--branco);
 }
 
 .nav li a:hover {
-  padding: 10px 10px;
   font-weight: 700;
-  font-size: 1.2em;
-  background-color: var(--branco);
-  color: var(--preto);
-  transition: 0.5s ease;
-  border-radius: 10px;
+  font-size: 1.1em;
+  color: var(--verde-limao);
+  transition: 0.2s ease;
 }
 
 .nav li {
   list-style: none;
-  padding: 16px 0;
+  padding: 16px 1em;
 }
 
 .nav {
-  padding: 0;
-  margin: 0 20px;
+  padding: 0 10px;
+  margin: 0 10px;
   transition: 0.3s ease;
   display: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  min-width: 150px;
+  background: var(--branco) fixed;
 }
 
 .menu-bg,
@@ -110,4 +119,27 @@ ul {
 
 .change {
   display: block;
+}
+
+#barra__pesquisa {
+  height: 2em;
+  width: 200px;
+  margin: 0.5em;
+}
+
+.menu__botao {
+  height: 2em;
+  width: 60px;
+  background-color: var(--preto);
+  border: 1px solid var(--branco);
+  color: var(--branco);
+}
+
+.menu__botao:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.menu__logo {
+  background-color: var(--preto);
 }
