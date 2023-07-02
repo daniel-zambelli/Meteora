@@ -28,6 +28,9 @@ body {
   font-weight: 400;
 }
 
+main {
+}
+
 .container__principal {
   max-width: 80vw;
   margin: auto;
