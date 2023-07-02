@@ -1,5 +1,7 @@
-.banner_imagem {
+.banner__imagem {
+  background: url("../assets/banner-carousel-desktop-1.png");
+  background-size: 100% 100%;
   width: 100vw;
-  height: 500px;
-  margin-top: -3px;
+  height: 415px;
+  margin-top: -5px;
 }

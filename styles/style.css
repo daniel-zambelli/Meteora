@@ -27,3 +27,8 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
+.container__principal {
+  max-width: 80vw;
+  margin: auto;
+}

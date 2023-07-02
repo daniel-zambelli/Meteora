@@ -1,0 +1,30 @@
+.produtos__titulo {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.produtos__destaque {
+  margin-left: 9em;
+  margin-top: 2em;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.card__imagem {
+  max-width: 422px;
+}
+
+.card__valor {
+  font-weight: 700;
+}
+
+.card__botao {
+  text-align: center;
+  padding: 5px;
+  max-width: 80px;
+  background-color: var(--violeta);
+  color: var(--branco);
+}

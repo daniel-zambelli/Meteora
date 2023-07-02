@@ -1,0 +1,25 @@
+.categorias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.categorias__titulo {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.categorias__container {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.categorias__descricao {
+  background-color: var(--preto);
+  color: var(--branco);
+  text-align: center;
+  padding: 0.5em;
+}
