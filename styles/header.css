@@ -70,7 +70,7 @@ nav > .navbar-toggler > .bar {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background: #daff01;
+  background: url("./assets/menu-hamburguer-aberto.svg");
   border-radius: 10%;
   transition: 0.4s;
 }
