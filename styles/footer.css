@@ -1,0 +1,7 @@
+.rodape__descricao {
+  text-align: center;
+  color: var(--branco);
+  background-color: var(--preto);
+  padding: 1em 0;
+  font-size: 14px;
+}

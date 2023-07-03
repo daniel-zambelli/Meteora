@@ -15,20 +15,26 @@
   --violeta: #9353ff;
   --vermelho-banner: #ee6471;
   --laranja-banner: #f87f46;
-  --cor-de-fundo: #ffffff;
+  --branco: #ffffff;
   --cor-menu: #343a40;
 
-  --fonte-primaria: "Josefins", sans-serif;
+  --fonte-primaria: "Josefin Sans", sans-serif;
 }
 
-body {
-  background-color: var(--cor-de-fundo);
+html {
+  height: 100vh;
   font-family: var(--fonte-primaria);
   font-size: 16px;
   font-weight: 400;
 }
 
-.container__principal {
-  max-width: 80vw;
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--branco);
+}
+
+main {
+  max-width: 80%;
   margin: auto;
 }

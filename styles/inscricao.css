@@ -1,0 +1,41 @@
+.inscricao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 4em 0;
+}
+
+.inscricao__card {
+  width: 70%;
+  border: 1px solid var(--preto);
+  padding: 3em 3em;
+}
+
+.inscricao__titulo {
+  padding: 1em 0;
+}
+
+.inscricao__destaque {
+  font-weight: 700;
+}
+
+.inscricao__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#email {
+  width: 400px;
+  height: 2em;
+  border: 1px solid var(--preto);
+  padding: 1em 1em;
+}
+
+.email__botao {
+  background-color: var(--violeta);
+  padding: 0.5em 1em;
+  color: var(--branco);
+}

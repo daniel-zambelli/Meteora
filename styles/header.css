@@ -1,16 +1,3 @@
-:root {
-  --branco: #ffffff;
-  --preto: #000000;
-  --cinza-escuro: #505050;
-  --verde-limao: #daff01;
-  --violeta: #9353ff;
-}
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  background-color: var(--branco);
-}
-
 .cabecalho {
   background-color: var(--preto);
   height: 80px;

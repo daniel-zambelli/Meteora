@@ -1,0 +1,44 @@
+.vantagens {
+  background-color: var(--preto);
+  color: var(--branco);
+  padding: 1em;
+}
+
+.vantagens__titulo {
+  text-align: center;
+  padding: 1em 0;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.vantagens__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vantagens__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 2em;
+}
+
+.vantagens__textos {
+  width: 50%;
+}
+
+.vantagens__subtitulo {
+  color: var(--verde-limao);
+  padding: 1em 0em;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.vantagens__descricao {
+  font-size: 14px;
+}
+
+.vantagens__imagem {
+  padding: 1em 1em;
+}

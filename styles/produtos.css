@@ -5,26 +5,40 @@
 }
 
 .produtos__destaque {
-  margin-left: 9em;
-  margin-top: 2em;
-  width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  padding-bottom: 3em;
+}
+
+.card {
+  max-width: 400px;
+  max-height: 600px;
+  padding: 20px;
+  margin: auto;
 }
 
 .card__imagem {
-  max-width: 422px;
+  padding-bottom: 7px;
+}
+
+.card__titulo {
+  padding-bottom: 7px;
+}
+
+.card__descricao {
+  padding-bottom: 7px;
+  font-size: 14px;
 }
 
 .card__valor {
+  padding: 10px 0;
   font-weight: 700;
 }
 
 .card__botao {
   text-align: center;
-  padding: 5px;
-  max-width: 80px;
+  padding: 0.5em;
   background-color: var(--violeta);
   color: var(--branco);
 }
